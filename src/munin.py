@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from dsmrp1 import *
 
 import sys
