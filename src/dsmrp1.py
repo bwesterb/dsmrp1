@@ -38,7 +38,8 @@ UNITS = {
     'W': 1,
     's': 1,
     'm3': 1,
-    'A': 1}
+    'A': 1,
+    'V': 1}
 
 OBIS = {
     '0-0:96.1.1': ('id', _id),
@@ -63,6 +64,8 @@ OBIS = {
     '0-0:1.0.0': ('tst', _tst),
     '0-0:96.7.21': ('power-failures', int),
     '0-0:96.7.9': ('long-power-failures', int),
+
+    '1-0:32.7.0': ('l1-voltage', _unit),
 
     '1-0:32.32.0': ('l1-voltage-sags', int),
     '1-0:52.32.0': ('l2-voltage-sags', int),
